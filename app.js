@@ -35,7 +35,7 @@ const start = async () => {
             console.log('connected to server...');
         })
     } catch (err) {
-        
+        console.log(err);
     }
 }
 
