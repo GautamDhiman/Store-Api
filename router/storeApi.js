@@ -5,7 +5,6 @@ const { getAllProductsStatic, getAllProducts } = require('../controllers/Store-A
 
 router.route('/').get(getAllProducts)
 router.route('/static').get(getAllProductsStatic)
-router.route('/query').get(getAllProducts);
 
 
 module.exports = router;
